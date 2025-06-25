@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - روبلوكس</title>
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e8ecef;
+            direction: rtl;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #ffffff;
+            width: 380px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 22px;
+            color: #1f2a44;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #d3d9de;
+            border-radius: 8px;
+            font-size: 14px;
+            box-sizing: border-box;
+            background-color: #f7f8fa;
+        }
+        input:focus {
+            outline: none;
+            border-color: #00a2ed;
+            box-shadow: 0 0 5px rgba(0, 162, 237, 0.3);
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #00a2ed;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #0087c9;
+        }
+        .links {
+            margin-top: 15px;
+        }
+        .links a {
+            color: #00a2ed;
+            text-decoration: none;
+            font-size: 13px;
+            margin: 0 10px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://via.placeholder.com/140x50.png?text=Roblox+Logo" alt="Roblox Logo" class="logo">
+        <h1>تسجيل الدخول إلى روبلوكس</h1>
+        <form>
+            <input type="text" placeholder="اسم المستخدم أو البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+        <div class="links">
+            <a href="#">نسيت كلمة المرور؟</a>
+            <a href="#">إنشاء حساب جديد</a>
+        </div>
+        <div class="footer">
+            <p>© 2025 Roblox Corporation</p>
+        </div>
+    </div>
+</body>
+</html>
